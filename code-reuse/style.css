@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    padding:10px;
+    
+}
+
+.box{
+    padding:25px;
+}
+
+.box:nth-child(odd)
+{
+    background-color:rgb(204, 202, 209);
+}
+
+.box:nth-child(even){
+    background-color:rgb(123, 146, 155);
+} 
+
+.box1 {
+   color:black;
+}
+
+.box2 {
+    color:white;
+}
+
+.box3 {
+    color:rgb(99, 86, 146)
+}
+
+button{
+    padding:13px;
+    margin:15px 0px;
+    border:none;
+}
+
+.box1 button{
+    color:white;
+    background-color:rgb(99, 86, 146);
+}
+
+.box2 button{
+    color:rgb(99, 86, 146);
+    background-color:white;
+    
+}
+.box3 button{
+    color:rgb(99, 86, 146);
+    background-color:inherit;
+    border:1px solid rgb(99, 86, 146);
+}
+
+
+
+
